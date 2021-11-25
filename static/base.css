@@ -1,0 +1,108 @@
+body {
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+label {
+  font-family: "Red Hat Mono", monospace;
+}
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 4vh;
+}
+.input2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.submit button {
+  padding: 8px 18px;
+  border: none;
+  background-color: #878686;
+  color: white;
+  border-radius: 6px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+nav.navbar.navbar-dark.bg-dark {
+  background-color: black;
+  color: white;
+}
+a:link,
+a:visited,
+a:hover {
+  color: white;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  color: #000597e0;
+  font-family: "Red Hat Mono", monospace;
+  text-align: center;
+}
+a.navbar-link.github {
+  color: currentcolor;
+  font-size: 1.5em;
+}
+.predsent {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #5d5d62;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Inconsolata", monospace;
+  font-family: "Red Hat Mono", monospace;
+}
+span.quality {
+  font-weight: bold;
+  font-style: italic;
+}
+@media only screen and (max-width: 700px) {
+  .inputs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .predsent {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .title {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .inputs {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .inputs {
+    grid-template-columns: 1fr;
+  }
+}
