@@ -18,7 +18,7 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  margin-top: 4vh;
+  margin-top: 12vh;
 }
 .input2 {
   margin-top: 20px;
